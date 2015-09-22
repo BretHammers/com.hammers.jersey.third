@@ -5,7 +5,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import com.hammers.jersey.third.Calc;
+//import com.hammers.jersey.third.Calc;
 
 //Sets the path to base URL + /shape
 @Path("/shape")
