@@ -12,7 +12,7 @@
 <p>
 </p>
 <p>
-<a href="http://localhost:8080/com.hammers.jersey.third/rest/shape">RESTfully, Find area of shape</a> 
+<a href="http://localhost:8080/com.hammers.jersey.third/rest/shape">RESTfully, Find area of rectangle</a> 
 </p>
 </body>
 </html>
