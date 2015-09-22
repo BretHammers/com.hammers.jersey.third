@@ -33,19 +33,7 @@ public class Shape {
 				+ toString()).build();
   }
   
-//@Produces(MediaType.TEXT_HTML)
-  public String sayHtmlShapeArea() {
-	double x=21.5;
-	double y=13.5;
-	double area;
-	area = x * y;
-		
-    return "<html> " + "<title>" + "Shape Area" + "</title>" + "<body>" + 
-           "<p>Shape=Rectangle </p>" + 
-           "<p>side1 length = " + x  + "</p>" +
-           "<p>side2 length = " + y  + "</p>" +
-           "<p>Area = " + area   + "</p></body>" + "</html> ";
-  }
+
   
 
  
