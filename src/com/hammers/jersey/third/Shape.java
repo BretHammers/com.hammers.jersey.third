@@ -1,7 +1,7 @@
 package com.hammers.jersey.third;
 
 
-import java.util.List;
+//import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Context;
@@ -27,9 +27,9 @@ public class Shape {
 	area = x * y;
 	return Response
 			   .status(200)
-			   .entity("side1 : " + side1 + 
-					   ", side2 : " + side2 + 
-					   ", area : " + area + "    "
+			   .entity("side1: " + side1 + 
+					   ", side2: " + side2 + 
+					   ", area: " + area + "       "
 				+ toString()).build();
   }
   

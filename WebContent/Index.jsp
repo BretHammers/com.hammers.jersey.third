@@ -13,6 +13,14 @@
 </p>
 <p>
 <a href="http://localhost:8080/com.hammers.jersey.third/rest/shape">RESTfully, Find area of rectangle</a> 
+
+<p>
+<a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=252&side2=111">
+Modify url params to get different values.
+</a>
+</p>
+
+<h1>EC2 website urls</h1>
 <a href="http://ec2-52-89-24-223.us-west-2.compute.amazonaws.com/WebContent/Index.jsp">Amazon EC2</a>
 <a href="http://ec2-52-89-24-223.us-west-2.compute.amazonaws.com/rest/shape?side1=4&side2=5">REST</a>
 
