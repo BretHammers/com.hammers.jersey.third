@@ -53,7 +53,7 @@ public class Shape {
 			   .status(200)
 			   .entity(
 					   "<html> " + "<title>" + "ShapeInfoHTML" + "</title>"
-							    + "<body><h1> side1: " + side1 + "  side2: " + side2 + "  Area: " + area + "</body></h1> </html> "
+							    + "<body><h1>Rectangle  side1: " + side1 + "  side2: " + side2 + "  Area: " + area + "</body></h1> </html> "
 					   			+ toString()).build();
 		
   }
