@@ -10,8 +10,6 @@
 <h1>Tomcat Test</h1>
 <p>It works!</p>
 <p>
-</p>
-
 <a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=252&side2=111">
 REST API call.  Modify url params to get different values.
 </a>
@@ -20,7 +18,7 @@ REST API call.  Modify url params to get different values.
 <h1>EC2 website urls (note: URL's need updated whenever EC2 server is restarted)</h1>
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/">Amazon EC2 server check</a>
 <p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/WebContent/Index.jsp">Amazon EC2 website</a>
+<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website</a>
 </p>
 <p>
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/rest/shape?side1=4&side2=5">Amazon EC2 REST</a>
