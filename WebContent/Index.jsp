@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,7 +9,12 @@
 <h1>Tomcat Test</h1>
 <p>It works!</p>
 <p>
-<a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=252&side2=111">
+<a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=250&side2=150">
+local REST API call.  Modify url params to get different values.
+</a>
+</p>
+<p>
+<a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=25&side2=15">
 local REST API call.  Modify url params to get different values.
 </a>
 </p>
