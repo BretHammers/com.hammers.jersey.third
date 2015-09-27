@@ -25,7 +25,7 @@ local REST API call.  25x15 :Modify url params to get different values.
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website</a>
 </p>
 <p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/rest/shape?side1=4&side2=5">Amazon EC2 REST (path doesn't work argh)</a>
+<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/rest/shape?&side1=4&side2=5">Amazon EC2 REST (path doesn't work argh)</a>
 </p>
 
 </body>
