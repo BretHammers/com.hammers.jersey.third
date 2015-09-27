@@ -15,8 +15,6 @@ import javax.ws.rs.core.UriInfo;
 //Sets the path to base URL + /shape
 @Path("/shape")
 public class Shape {
-	
-
  @GET
  @Produces(MediaType.TEXT_PLAIN)
  public Response getShapeInfo(@Context UriInfo info) {

@@ -10,12 +10,12 @@
 <p>It works!</p>
 <p>
 <a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=250&side2=150">
-local REST API call.  Modify url params to get different values.
+local REST API call.  250x150 :Modify url params to get different values.
 </a>
 </p>
 <p>
 <a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=25&side2=15">
-local REST API call.  Modify url params to get different values.
+local REST API call.  25x15 :Modify url params to get different values.
 </a>
 </p>
 
@@ -25,7 +25,7 @@ local REST API call.  Modify url params to get different values.
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website</a>
 </p>
 <p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/rest/shape?side1=4&side2=5">Amazon EC2 REST</a>
+<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/rest/shape?side1=4&side2=5">Amazon EC2 REST (path doesn't work argh)</a>
 </p>
 
 </body>
