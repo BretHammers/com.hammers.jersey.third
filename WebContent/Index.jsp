@@ -10,16 +10,16 @@
 <p>It works!</p>
 <p>
 <a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=250&side2=150">
-local REST API call.  250x150 :Modify url params to get different values.
+local REST API call.  250x150 :Modify url params side1 and side2 to get different values.
 </a>
 </p>
 <p>
 <a href="http://localhost:8080/com.hammers.jersey.third/rest/shape?&side1=25&side2=15">
-local REST API call.  25x15 :Modify url params to get different values.
+local REST API call.  25x15 :Modify url params side1 and side2 to get different values.
 </a>
 </p>
 
-<h2>EC2 website urls (note: URL's need updated whenever EC2 server is restarted)</h2>
+<h2>EC2 webserver (note: URL's need updated whenever EC2 server instance is restarted)</h2>
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/">Amazon EC2 server check</a>
 <p>
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website</a>
