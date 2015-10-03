@@ -29,7 +29,7 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 
 <h2>EC2 webserver Section </h2>
 <p>(note: URL's need updated whenever EC2 server instance is restarted)</p>
-
+<p>(note: Elastic IP has been assigned.)</p>
 <p>
 <a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com:8080/">Amazon EC2 Tomcat website (port 8080)</a>
 </p>
