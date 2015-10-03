@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Tomcat Test</h1>
-<p>It works!</p>
+
 <p>
 <h2>LocalHost Section</h2></p>
 <p>
@@ -28,7 +28,6 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 </p>
 
 <h2>EC2 webserver Section </h2>
-<p>(note: URL's need updated whenever EC2 server instance is restarted)</p>
 <p>(note: Elastic IP has been assigned.)</p>
 <p>
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/">Amazon EC2 Tomcat website (port 8080)</a>
@@ -40,6 +39,8 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 <p>
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/rest/shape?&side1=4&side2=5">Amazon EC2 REST API call (path doesn't work argh)</a>
 </p>
-
+<p>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/rest/shape?&side1=4&side2=5">Amazon EC2 REST API call (path doesn't work argh)</a>
+</p>
 </body>
 </html>
