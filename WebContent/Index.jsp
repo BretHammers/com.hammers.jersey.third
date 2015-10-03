@@ -31,14 +31,14 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 <p>(note: URL's need updated whenever EC2 server instance is restarted)</p>
 <p>(note: Elastic IP has been assigned.)</p>
 <p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com:8080/">Amazon EC2 Tomcat website (port 8080)</a>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/">Amazon EC2 Tomcat website (port 8080)</a>
 </p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/">Amazon EC2 server check</a>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/">Amazon EC2 server check</a>
 <p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website (this page, Index.jsp)</a>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website (this page, Index.jsp)</a>
 </p>
 <p>
-<a href="http://ec2-52-89-231-81.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/rest/shape?&side1=4&side2=5">Amazon EC2 REST API call (path doesn't work argh)</a>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/rest/shape?&side1=4&side2=5">Amazon EC2 REST API call (path doesn't work argh)</a>
 </p>
 
 </body>
