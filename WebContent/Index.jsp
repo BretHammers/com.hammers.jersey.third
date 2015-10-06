@@ -27,8 +27,8 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 </a>
 </p>
 
-<h2>EC2 webserver Section </h2>
-<p>(note: Elastic IP has been assigned.)</p>
+<h2>EC2 webserver Section:  </h2>
+(note: Elastic IP has been assigned.)
 <p>
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/">Amazon EC2 Tomcat website (port 8080)</a>
 </p>
@@ -37,13 +37,16 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Amazon EC2 website (this page, Index.jsp)</a>
 </p>
 <p>
-<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/rest/shape?&side1=4&side2=5">Amazon EC2 REST API call (path doesn't work argh)</a>
+<h2>Amazon EC2 REST API calls (path combinations don't work, arrrrgh.)</h2>
 </p>
 <p>
-<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/rest/shape?&side1=4&side2=5">Amazon EC2 REST API call (path doesn't work argh)</a>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/rest/shape?&side1=4&side2=5">(amazonaws.com:8080/com.hammers.jersey.third/rest/shape?) /a>
+</p>
+<p>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/rest/shape?&side1=4&side2=5">(amazonaws.com:8080/rest/shape?)</a>
 </p>
 </p>
-<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/rest/shape?&side1=4&side2=5"">Amazon EC2 REST API call (path doesn't work argh)</a>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/rest/shape?&side1=4&side2=5"">(amazonaws.com/com.hammers.jersey.third/rest/shape?)</a>
 </p>
 <p>
 </body>
