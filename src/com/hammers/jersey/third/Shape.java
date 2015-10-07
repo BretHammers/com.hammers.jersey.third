@@ -35,6 +35,7 @@ public class Shape {
 				+ toString()).build();
   }
 
+ 
  @GET
  @Produces(MediaType.TEXT_HTML)
  public Response getShapeInfoHTML(@Context UriInfo info) {
