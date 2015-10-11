@@ -22,6 +22,7 @@ public class Shape {
 		double y=0.0;
 		double area=0.0;
 		
+		
 	String side1 = info.getQueryParameters().getFirst("side1");
 	String side2 = info.getQueryParameters().getFirst("side2");
 	x=Double.parseDouble(side1);
@@ -42,6 +43,8 @@ public class Shape {
 	    double x=0.0;
 		double y=0.0;
 		double area=0.0;
+		String HomeURL="";
+		HomeURL ="http://localhost:8080/com.hammers.jersey.third/Index.jsp";
 		
 	String side1 = info.getQueryParameters().getFirst("side1");
 	String side2 = info.getQueryParameters().getFirst("side2");
@@ -51,8 +54,11 @@ public class Shape {
 	return Response
 			   .status(200)
 			   .entity(
-					   "<html> " + "<title>" + "ShapeInfoHTML" + "</title>"
-							    + "<body><h2>Rectangle  </br>side1: " + side1 + "</br>  side2: " + side2 + "</br>  Area: " + area + "</body></h2> </html> "
+					   "<html> " + "<title>" + "ShapeInfo" + "</title>"
+							    + "<body><h2>Rectangle  </br>side1: " + side1 + "</br>  side2: " + side2 + "</br>  Area: "
+							    + area + "</h2>"
+							    
+							    + "</body> </html>     "
 					   			+ toString()).build();
 		
   }
