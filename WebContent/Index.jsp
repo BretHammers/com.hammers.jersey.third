@@ -28,6 +28,9 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 </p>
 <h2>EC2 webserver Section:  </h2>(note: Elastic IP has been assigned.)
 <p>
+<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/WebContent/Index.jsp">Index.jsp, EC2 on 8080)</a>
+</p>
+<p>
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/">Amazon EC2 Tomcat website (port 8080)</a>
 </p>
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/">Amazon EC2 server check</a>
@@ -35,9 +38,7 @@ local REST API call.  25x15 :Modify url params side1 and side2 to get different 
 <a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com/com.hammers.jersey.third/WebContent/Index.jsp">Index.jsp, EC2, NOT 8080)</a>
 </p>
 
-<p>
-<a href="http://ec2-52-24-235-149.us-west-2.compute.amazonaws.com:8080/com.hammers.jersey.third/WebContent/Index.jsp">Index.jsp, EC2 on 8080)</a>
-</p>
+
 
 <h2>Amazon EC2 REST API calls (path combinations don't work, arrrrgh.)</h2>
 <p>
