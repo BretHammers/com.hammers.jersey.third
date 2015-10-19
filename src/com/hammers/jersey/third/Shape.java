@@ -56,7 +56,9 @@ public class Shape {
 			   .entity(
 					   "<html> " + "<title>" + "ShapeInfo" + "</title>"
 							    + "<body><h2>Rectangle  </br>side1: " + side1 + "</br>  side2: " + side2 + "</br>  Area: "
-							    + area + "</h2>"
+							    + area + "</br><a href=" + HomeURL + ">Go Back to previous page</a>" 
+							    
+							    +"</h2>" 
 							    
 							    + "</body> </html>     "
 					   			+ toString()).build();
